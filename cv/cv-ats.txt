@@ -1,0 +1,90 @@
+JEZRAEL CAMACHO GARCIA
+Técnico en Programación | IT Support Technician | Desarrollador Junior
+======================================================================
+
+CONTACTO
+--------
+Email:     26.jezrael.dev@gmail.com
+Teléfono:  +52 444 440 0121
+Ubicación: San Luis Potosí, SLP, México
+LinkedIn:  linkedin.com/in/jezrael-camacho-813513413
+GitHub:    github.com/Jezrael-tech
+Instagram: @jezrael6444
+
+PERFIL PROFESIONAL
+------------------
+Técnico en Programación egresado del CBTis 131 con experiencia en soporte técnico,
+reparación de equipos de cómputo y desarrollo de software. He trabajado con Windows,
+Linux y macOS, bases de datos relacionales y no relacionales, y múltiples lenguajes
+de programación. Experiencia real en entorno profesional antes de egresar.
+
+EXPERIENCIA LABORAL
+-------------------
+IT Support Technician — Valenzos PC
+San Luis Potosí, SLP | 2025 — Presente
+
+- Diagnóstico y reparación de equipos de cómputo (hardware y software)
+- Recuperación y flasheo de BIOS en equipos con fallas críticas
+- Soporte técnico en sistemas Windows, Linux y macOS
+- Atención y orientación a clientes en resolución de problemas tecnológicos
+- Instalación, configuración y mantenimiento de sistemas operativos
+
+EDUCACIÓN
+---------
+Técnico en Programación
+CBTis 131 — Centro de Bachillerato Tecnológico Industrial y de Servicios
+San Luis Potosí, SLP | 2023 — 2026
+Titulación por promedio
+
+HABILIDADES TÉCNICAS
+--------------------
+Lenguajes de programación:
+  Python, Java, C++, PHP, JavaScript, Lua
+
+Desarrollo web:
+  HTML5, CSS3, JavaScript
+
+Bases de datos:
+  MySQL, MongoDB, SQL
+
+Sistemas operativos:
+  Windows (avanzado), Linux (intermedio), macOS (intermedio)
+
+PROYECTOS DESTACADOS
+--------------------
+Flavor Crown — Sitio web oficial (Live)
+  Tecnologías: HTML, CSS, JavaScript, GitHub Pages
+  URL: papas333.github.io/Proyecto-J.J-R.O.E.github.io/
+  Descripción: Sitio web completo para marca gastronómica. Diseño responsivo,
+  interfaz moderna y desplegado en producción.
+
+TravelMind — Base de datos NoSQL
+  Tecnologías: MongoDB, JavaScript, Node.js
+  Descripción: Sistema de base de datos para gestión de viajes y destinos
+  turísticos. Consultas avanzadas y colecciones relacionadas.
+
+AquaControl — Sistema de monitoreo hídrico
+  Tecnologías: Python, MySQL, HTML, CSS
+  Descripción: Sistema de monitoreo y control de recursos hídricos con
+  visualización de datos en tiempo real y sistema de alertas.
+
+Sistema de Inventario — CRUD PHP + MySQL
+  Tecnologías: PHP, MySQL, JavaScript
+  Descripción: Sistema administrativo completo con control de stock,
+  reportes y panel de administración.
+
+LOGROS
+------
+- Titulación por promedio en carrera técnica
+- Representante del CBTis 131 en proyectos tecnológicos y competencias
+- Experiencia profesional real antes de egresar
+- Proyecto web en producción accesible públicamente (Flavor Crown)
+- Dominio de tres sistemas operativos: Windows, Linux y macOS
+
+REDES PROFESIONALES
+-------------------
+LinkedIn:  linkedin.com/in/jezrael-camacho-813513413
+GitHub:    github.com/Jezrael-tech
+Facebook:  facebook.com/jezrael.buster
+TikTok:    @jezrael6444
+Instagram: @jezrael6444
