@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jezrael Camacho Garcia — Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500;600&family=Fira+Code:wght@300;400&display=swap" rel="stylesheet" />
+
+  <!-- Iconos Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAV TOGGLE mobile hamburger -->
+  <div class="nav-toggle" id="navToggle">
+    <span></span><span></span><span></span>
+  </div>
+
+  <!-- ══ SIDEBAR — navegación fija lateral ══ -->
+  <aside class="sidebar" id="sidebar">
+    <nav class="nav">
+
+      <!-- Logo JC -->
+      <div class="nav-logo">
+        <a href="#hero" class="nav-logo-text">J.J ⭐</a>
+      </div>
+
+      <!-- Redes sociales reales -->
+      <div class="nav-social">
+        <a href="https://github.com/Jezrael-tech" target="_blank" class="social-link" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/jezrael-camacho-813513413/" target="_blank" class="social-link" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.facebook.com/jezrael.buster?locale=es_LA" target="_blank" class="social-link" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/jezrael6444/" target="_blank" class="social-link" title="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.tiktok.com/@jezrael6444" target="_blank" class="social-link" title="TikTok"><i class="fab fa-tiktok"></i></a>
+        <a href="https://wa.me/524444400121" target="_blank" class="social-link" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+      </div>
+
+      <!-- Links de navegación -->
+      <div class="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#hero"         class="nav-link active-link" data-section="hero">Home</a></li>
+          <li class="nav-item"><a href="#about"        class="nav-link" data-section="about">About</a></li>
+          <li class="nav-item"><a href="#experience"   class="nav-link" data-section="experience">Work</a></li>
+          <li class="nav-item"><a href="#skills"       class="nav-link" data-section="skills">Skills</a></li>
+          <li class="nav-item"><a href="#projects"     class="nav-link" data-section="projects">Projects</a></li>
+          <li class="nav-item"><a href="#timeline"     class="nav-link" data-section="timeline">Timeline</a></li>
+          <li class="nav-item"><a href="#achievements" class="nav-link" data-section="achievements">Logros</a></li>
+          <li class="nav-item"><a href="#contact"      class="nav-link" data-section="contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Barra de progreso scroll -->
+      <div class="scroll-indicator">
+        <div class="scroll-bar" id="scrollBar"></div>
+      </div>
+
+    </nav>
+  </aside>
+
+  <!-- ══ CONTENIDO PRINCIPAL ══ -->
+  <main class="main-content">
+
+    <!-- ── HERO — layout split: texto izq / foto der ── -->
+    <section id="hero" class="section hero-section">
+
+      <canvas id="particleCanvas"></canvas>
+
+      <!-- Layout de dos columnas igual que la imagen referencia -->
+      <div class="hero-layout">
+
+        <!-- Columna izquierda: texto -->
+        <div class="hero-inner">
+
+          <span class="hero-badge">
+            <i class="fas fa-circle pulse-dot"></i> Available for hire
+          </span>
+
+          <h1 class="hero-name" data-text="Jezrael Camacho Garcia">
+            Jezrael Camacho Garcia
+          </h1>
+
+          <div class="hero-roles">
+            <span class="role-prefix">_</span>
+            <span class="typewriter" id="typewriter"></span>
+            <span class="cursor">|</span>
+          </div>
+
+          <p class="hero-desc">
+            Técnico en Programación · IT Support · Desarrollador Junior
+            <br/>Egresado <span class="accent">CBTis 131</span> · Experiencia real en soporte tecnológico
+          </p>
+
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary">
+              <i class="fas fa-code"></i> Ver proyectos
+            </a>
+            <a href="cv/cv-visual.html" target="_blank" class="btn btn-outline">
+              <i class="fas fa-file-alt"></i> CV Visual
+            </a>
+            <a href="cv/cv-ats.txt" download="CV-Jezrael-Camacho-Garcia-ATS.txt" class="btn btn-ghost">
+              <i class="fas fa-download"></i> CV ATS
+            </a>
+            <a href="#contact" class="btn btn-ghost">
+              <i class="fas fa-paper-plane"></i> Contactarme
+            </a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat">
+              <span class="stat-num" data-target="10">0</span>+
+              <span class="stat-label">Tecnologías</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat">
+              <span class="stat-num" data-target="4">0</span>+
+              <span class="stat-label">Proyectos</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat">
+              <span class="stat-num" data-target="3">0</span>
+              <span class="stat-label">Años formación</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Columna derecha: foto real — igual que en la imagen de referencia -->
+        <div class="hero-photo-col">
+          <div class="hero-photo-frame">
+            <!-- Anillos decorativos girando alrededor de la foto -->
+            <div class="photo-ring photo-ring-1"></div>
+            <div class="photo-ring photo-ring-2"></div>
+            <!-- Foto real de Jezrael -->
+            <img
+              src="img/profile.jpg"
+              alt="Jezrael Camacho Garcia"
+              class="hero-photo"
+              onerror="this.src='img/profile-placeholder.svg'"
+            />
+            <!-- Badge de nombre flotante bajo la foto -->
+            <div class="photo-badge">
+              <span class="photo-badge-name">Jezrael Camacho Garcia</span>
+              <span class="photo-badge-role">Técnico en Programación</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="scroll-hint">
+        <span>Scroll</span>
+        <div class="scroll-arrow"><i class="fas fa-chevron-down"></i></div>
+      </div>
+
+    </section>
+
+    <!-- ── ABOUT ── -->
+    <section id="about" class="section about-section">
+      <div class="container">
+
+        <div class="section-header reveal">
+          <span class="section-eyebrow">// 01</span>
+          <h2 class="section-title">Sobre mí</h2>
+        </div>
+
+        <div class="about-grid">
+
+          <div class="about-text reveal">
+            <p class="about-lead">
+              Técnico en Programación egresado del <span class="accent">CBTis 131</span> con
+              experiencia en soporte técnico, reparación de equipos y desarrollo de software.
+            </p>
+            <p>
+              He trabajado con <span class="tag-inline">Windows</span>,
+              <span class="tag-inline">Linux</span>,
+              <span class="tag-inline">macOS</span>, bases de datos y múltiples lenguajes
+              de programación — participando tanto en proyectos académicos como en entornos
+              reales de soporte tecnológico en <span class="accent">Valenzos PC</span>.
+            </p>
+            <p>
+              Lo que me diferencia no es solo saber programar: diagnostiqué y reparé equipos
+              reales, trabajé con BIOS, hardware y atención a clientes — una combinación poco
+              común en un perfil junior.
+            </p>
+            <a href="#contact" class="btn btn-primary btn-sm">
+              Hablemos <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <div class="about-card reveal">
+            <div class="about-card-inner">
+              <!-- Foto pequeña en about -->
+              <div class="profile-ring">
+                <img
+                  src="img/profile.jpg"
+                  alt="Jezrael Camacho Garcia"
+                  class="profile-photo"
+                  onerror="this.src='img/profile-placeholder.svg'"
+                />
+                <div class="ring ring-1"></div>
+                <div class="ring ring-2"></div>
+              </div>
+              <div class="about-info-list">
+                <div class="info-item">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <span>San Luis Potosí, SLP · México</span>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-graduation-cap"></i>
+                  <span>CBTis 131 · Técnico en Programación</span>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-briefcase"></i>
+                  <span>Valenzos PC · IT Support</span>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-envelope"></i>
+                  <span>26.jezrael.dev@gmail.com</span>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-phone"></i>
+                  <span>+52 444 440 0121</span>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-star"></i>
+                  <span>Titulación por promedio</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── EXPERIENCE ── -->
+    <section id="experience" class="section experience-section">
+      <div class="container">
+
+        <div class="section-header reveal">
+          <span class="section-eyebrow">// 02</span>
+          <h2 class="section-title">Experiencia</h2>
+        </div>
+
+        <div class="exp-card reveal">
+          <div class="exp-header">
+            <div class="exp-logo">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+            <div class="exp-info">
+              <h3 class="exp-company">Valenzos PC</h3>
+              <span class="exp-role">IT Support Technician</span>
+              <span class="exp-period">2025 — Presente</span>
+            </div>
+            <span class="exp-badge current">Actual</span>
+          </div>
+          <div class="exp-body">
+            <div class="exp-tags">
+              <span class="exp-tag"><i class="fas fa-tools"></i> Reparación de PCs</span>
+              <span class="exp-tag"><i class="fas fa-microchip"></i> Diagnóstico de hardware</span>
+              <span class="exp-tag"><i class="fas fa-database"></i> Recuperación de BIOS</span>
+              <span class="exp-tag"><i class="fab fa-linux"></i> Linux</span>
+              <span class="exp-tag"><i class="fab fa-apple"></i> macOS</span>
+              <span class="exp-tag"><i class="fas fa-headset"></i> Soporte técnico</span>
+              <span class="exp-tag"><i class="fas fa-users"></i> Atención a clientes</span>
+              <span class="exp-tag"><i class="fab fa-windows"></i> Windows</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ── SKILLS ── -->
+    <section id="skills" class="section skills-section">
+      <div class="container">
+
+        <div class="section-header reveal">
+          <span class="section-eyebrow">// 03</span>
+          <h2 class="section-title">Tecnologías</h2>
+        </div>
+
+        <div class="skills-grid">
+
+          <div class="skill-group reveal">
+            <h4 class="skill-group-title"><i class="fas fa-code"></i> Programación</h4>
+            <div class="skill-list">
+              <div class="skill-item"><span>Python</span><div class="skill-bar"><div class="skill-fill" data-width="85"></div></div></div>
+              <div class="skill-item"><span>Java</span><div class="skill-bar"><div class="skill-fill" data-width="78"></div></div></div>
+              <div class="skill-item"><span>C++</span><div class="skill-bar"><div class="skill-fill" data-width="70"></div></div></div>
+              <div class="skill-item"><span>PHP</span><div class="skill-bar"><div class="skill-fill" data-width="75"></div></div></div>
+              <div class="skill-item"><span>JavaScript</span><div class="skill-bar"><div class="skill-fill" data-width="80"></div></div></div>
+              <div class="skill-item"><span>Lua</span><div class="skill-bar"><div class="skill-fill" data-width="60"></div></div></div>
+            </div>
+          </div>
+
+          <div class="skill-group reveal">
+            <h4 class="skill-group-title"><i class="fas fa-globe"></i> Web</h4>
+            <div class="skill-list">
+              <div class="skill-item"><span>HTML</span><div class="skill-bar"><div class="skill-fill" data-width="90"></div></div></div>
+              <div class="skill-item"><span>CSS</span><div class="skill-bar"><div class="skill-fill" data-width="85"></div></div></div>
+              <div class="skill-item"><span>JavaScript</span><div class="skill-bar"><div class="skill-fill" data-width="80"></div></div></div>
+            </div>
+          </div>
+
+          <div class="skill-group reveal">
+            <h4 class="skill-group-title"><i class="fas fa-database"></i> Bases de datos</h4>
+            <div class="skill-list">
+              <div class="skill-item"><span>MySQL</span><div class="skill-bar"><div class="skill-fill" data-width="82"></div></div></div>
+              <div class="skill-item"><span>MongoDB</span><div class="skill-bar"><div class="skill-fill" data-width="65"></div></div></div>
+              <div class="skill-item"><span>SQL</span><div class="skill-bar"><div class="skill-fill" data-width="78"></div></div></div>
+            </div>
+          </div>
+
+          <div class="skill-group reveal">
+            <h4 class="skill-group-title"><i class="fas fa-server"></i> Sistemas</h4>
+            <div class="skill-list">
+              <div class="skill-item"><span>Windows</span><div class="skill-bar"><div class="skill-fill" data-width="92"></div></div></div>
+              <div class="skill-item"><span>Linux</span><div class="skill-bar"><div class="skill-fill" data-width="80"></div></div></div>
+              <div class="skill-item"><span>macOS</span><div class="skill-bar"><div class="skill-fill" data-width="70"></div></div></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── PROJECTS ── -->
+    <section id="projects" class="section projects-section">
+      <div class="container">
+
+        <div class="section-header reveal">
+          <span class="section-eyebrow">// 04</span>
+          <h2 class="section-title">Proyectos</h2>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- FEATURED: Flavor Crown — con link real -->
+          <article class="project-card reveal featured">
+            <div class="project-img flavor-crown-img">
+              <div class="project-img-placeholder fc-placeholder">
+                <i class="fas fa-crown"></i>
+              </div>
+              <span class="project-label">Featured · Live</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Flavor Crown 👑</h3>
+              <p class="project-desc">
+                Sitio web oficial de Flavor Crown. Diseño atractivo, interfaz responsiva y
+                experiencia de usuario centrada en marca gastronómica. Desplegado en GitHub Pages.
+              </p>
+              <div class="project-tech">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span><span>GitHub Pages</span>
+              </div>
+              <div class="project-links">
+                <a href="https://papas333.github.io/Proyecto-J.J-R.O.E.github.io/" target="_blank" class="btn btn-primary btn-xs">
+                  <i class="fas fa-external-link-alt"></i> Ver sitio live
+                </a>
+                <a href="https://github.com/Jezrael-tech" target="_blank" class="btn btn-ghost btn-xs">
+                  <i class="fab fa-github"></i> Código
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- TravelMind — MongoDB -->
+          <article class="project-card reveal">
+            <div class="project-img travelmind-img">
+              <div class="project-img-placeholder tm-placeholder">
+                <i class="fas fa-globe-americas"></i>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">TravelMind ✈️</h3>
+              <p class="project-desc">
+                Base de datos NoSQL en MongoDB para gestión de viajes y destinos turísticos.
+                Consultas avanzadas, colecciones relacionadas y visualización de datos.
+              </p>
+              <div class="project-tech">
+                <span>MongoDB</span><span>JavaScript</span><span>Node.js</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/Jezrael-tech" target="_blank" class="btn btn-primary btn-xs">
+                  <i class="fab fa-github"></i> Código
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- AquaControl -->
+          <article class="project-card reveal">
+            <div class="project-img aqua-img">
+              <div class="project-img-placeholder">
+                <i class="fas fa-tint"></i>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">AquaControl 💧</h3>
+              <p class="project-desc">
+                Sistema de monitoreo y control de recursos hídricos. Automatización,
+                visualización de datos en tiempo real y alertas.
+              </p>
+              <div class="project-tech">
+                <span>Python</span><span>MySQL</span><span>HTML</span><span>CSS</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/Jezrael-tech" target="_blank" class="btn btn-primary btn-xs">
+                  <i class="fab fa-github"></i> Código
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sistema de Inventario -->
+          <article class="project-card reveal">
+            <div class="project-img inventory-img">
+              <div class="project-img-placeholder">
+                <i class="fas fa-boxes"></i>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Sistema de Inventario 📦</h3>
+              <p class="project-desc">
+                CRUD completo con PHP y MySQL. Control de stock, reportes y panel administrativo.
+              </p>
+              <div class="project-tech">
+                <span>PHP</span><span>MySQL</span><span>JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/Jezrael-tech" target="_blank" class="btn btn-primary btn-xs">
+                  <i class="fab fa-github"></i> Código
+                </a>
+              </div>
+            </div>
+          </article>
+
+          
+
+          </div>
+      </div>
+    </section>
+
+    <!-- ── TIMELINE ── -->
+    <section id="timeline" class="section timeline-section">
+      <div class="container">
+
+        <div class="section-header reveal">
+          <span class="section-eyebrow">// 05</span>
+          <h2 class="section-title">Timeline</h2>
+        </div>
+
+        <div class="timeline">
+
+          <div class="tl-item reveal">
+            <div class="tl-dot"></div>
+            <div class="tl-content">
+              <span class="tl-year">2023</span>
+              <h4>Ingreso CBTis 131</h4>
+              <p>Inicio de la carrera técnica en Programación. Primeras bases en algoritmos, lenguajes y sistemas.</p>
+            </div>
+          </div>
+
+          <div class="tl-item reveal">
+            <div class="tl-dot"></div>
+            <div class="tl-content">
+              <span class="tl-year">2025</span>
+              <h4>Valenzos PC</h4>
+              <p>Inicio de experiencia profesional real. Reparación de equipos, soporte técnico y atención a clientes.</p>
+            </div>
+          </div>
+
+          <div class="tl-item reveal">
+            <div class="tl-dot active"></div>
+            <div class="tl-content">
+              <span class="tl-year">2026</span>
+              <h4>Egreso — Técnico en Programación</h4>
+              <p>Titulación por promedio. Representación del CBTis 131 en proyectos y competencias.</p>
+            </div>
+          </div>
+
+          <div class="tl-item reveal future">
+            <div class="tl-dot future-dot"></div>
+            <div class="tl-content">
+              <span class="tl-year">2026 →</span>
+              <h4>Próximo paso</h4>
+              <p>Búsqueda de oportunidades IT. Listo para aportar en desarrollo de software, soporte y más.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── ACHIEVEMENTS ── -->
+    <section id="achievements" class="section achievements-section">
+      <div class="container">
+
+        <div class="section-header reveal">
+          <span class="section-eyebrow">// 06</span>
+          <h2 class="section-title">Logros</h2>
+        </div>
+
+        <div class="achievements-grid">
+
+          <div class="achievement-card reveal">
+            <div class="ach-icon"><i class="fas fa-trophy"></i></div>
+            <h4>Titulación por promedio</h4>
+            <p>Egresado con calificaciones sobresalientes a lo largo de toda la carrera técnica.</p>
+          </div>
+
+          <div class="achievement-card reveal">
+            <div class="ach-icon"><i class="fas fa-school"></i></div>
+            <h4>Representante CBTis 131</h4>
+            <p>Participación representando a la institución en proyectos tecnológicos y competencias.</p>
+          </div>
+
+          <div class="achievement-card reveal">
+            <div class="ach-icon"><i class="fas fa-briefcase"></i></div>
+            <h4>Experiencia antes de egresar</h4>
+            <p>Trabajo profesional real en soporte tecnológico antes de concluir la carrera técnica.</p>
+          </div>
+
+          <div class="achievement-card reveal">
+            <div class="ach-icon"><i class="fas fa-crown"></i></div>
+            <h4>Flavor Crown — Proyecto live</h4>
+            <p>Sitio web completo desplegado en producción, accesible públicamente en GitHub Pages.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── CONTACT ── -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+
+        <div class="section-header reveal">
+          <span class="section-eyebrow">// 07</span>
+          <h2 class="section-title">Contacto</h2>
+        </div>
+
+        <div class="contact-grid">
+
+          <div class="contact-text reveal">
+            <p class="contact-lead">¿Tienes un proyecto o una oportunidad?<br/> <span class="accent">Hablemos.</span></p>
+            <p>Estoy disponible para prácticas profesionales, proyectos freelance o empleo de tiempo completo en áreas de IT, soporte técnico y desarrollo.</p>
+          </div>
+
+          <div class="contact-links reveal">
+            <a href="mailto:26.jezrael.dev@gmail.com" class="contact-card">
+              <i class="fas fa-envelope"></i>
+              <span>26.jezrael.dev@gmail.com</span>
+            </a>
+            <a href="https://wa.me/524444400121" target="_blank" class="contact-card">
+              <i class="fab fa-whatsapp"></i>
+              <span>+52 444 440 0121</span>
+            </a>
+            <a href="https://www.linkedin.com/in/jezrael-camacho-813513413/" target="_blank" class="contact-card">
+              <i class="fab fa-linkedin-in"></i>
+              <span>linkedin.com/in/jezrael-camacho</span>
+            </a>
+            <a href="https://github.com/Jezrael-tech" target="_blank" class="contact-card">
+              <i class="fab fa-github"></i>
+              <span>github.com/Jezrael-tech</span>
+            </a>
+            <a href="https://www.instagram.com/jezrael6444/" target="_blank" class="contact-card">
+              <i class="fab fa-instagram"></i>
+              <span>@jezrael6444</span>
+            </a>
+            <a href="https://www.tiktok.com/@jezrael6444" target="_blank" class="contact-card">
+              <i class="fab fa-tiktok"></i>
+              <span>@jezrael6444</span>
+            </a>
+            <a href="https://www.facebook.com/jezrael.buster?locale=es_LA" target="_blank" class="contact-card">
+              <i class="fab fa-facebook-f"></i>
+              <span>jezrael.buster</span>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ── FOOTER ── -->
+    <footer class="footer">
+      <span class="footer-code">
+        &lt;/JezraelCamachoGarcia&gt; · Hecho con <i class="fas fa-heart accent"></i> en SLP · 2026
+      </span>
+    </footer>
+
+  </main>
+
+  <script src="js/particles.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
